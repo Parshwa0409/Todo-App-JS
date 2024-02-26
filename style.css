@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    border-radius: 1rem;
+}
+
+.root {
+    background-color: lavender;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.add-row {
+    display: flex;
+    padding: 1rem 1rem;
+    justify-content: end;
+    width: 100%;
+}
+
+.add-row > input {
+    flex-grow: 1;
+    margin-right: 1rem;
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+}
+
+.add-row > button {
+    border-radius: 1rem;
+}
+
+#task-list {
+    padding: 0 1rem;
+    list-style-type: circle;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+.item-checked {
+    text-decoration: line-through;
+}
+
+.item-unchecked {
+    text-decoration: none;
+}
+
+.task-item > p {
+    margin: 0 0 0 1rem;
+}
+
+.task-item > button {
+    margin-left: auto;
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+}
